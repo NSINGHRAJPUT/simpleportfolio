@@ -1,0 +1,83 @@
+.hero_section{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 90%;
+    background: linear-gradient(270deg,rgba(79, 240, 4, 0.1),rgba(160, 3, 3,0.2),rgba(1, 190, 253, 0.2),rgba(6, 26, 181, 0.2));
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px  gray inset;
+}
+.job_title{
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+.hero_image{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5%;
+    margin: 1%;
+    transition: 0.5s;
+}
+.hero_image:hover{
+    transform: translate(2%,2%);
+}
+.hero_intro{
+    margin: 1%;
+    transition: 0.5s;
+}
+.intro{
+    width: 60%;
+    margin-top: 2%;
+}
+.hero_intro:hover{
+    transform: translate(2%,2%);
+}
+.cv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.cv button{
+    background: transparent;
+    color: white;
+    margin: 4%;
+    width: 120%;
+    border-radius: 20px;
+    padding: 2%;
+}
+.cv button:hover{
+    background: linear-gradient(270deg,rgba(79, 240, 4, 1),rgb(160, 3, 3));
+}
+@media screen and (max-width: 660px) {
+    .hero_section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_image{
+        margin-top: 8vh;
+    }
+    .hero_intro{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cv button{
+        width: auto;
+    }
+}

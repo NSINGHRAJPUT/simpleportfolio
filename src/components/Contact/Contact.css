@@ -1,0 +1,98 @@
+.contact{
+    position: relative;
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 95vh;
+    
+}
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(270deg,rgba(79, 240, 4, 0.6),rgba(50, 7, 152, 0.4));
+    box-shadow: 1px 1px gray inset;
+    width: 30%;
+    align-items: center;
+    border-radius: 20px;
+}
+.nav_link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    margin-top: 0;
+    line-height: 220%;
+    background: linear-gradient(270deg,rgba(43, 4, 240, 0.5),rgba(79, 240, 4, 0.5));
+    box-shadow: 1px 1px  gray inset;
+    border-radius: 25px;
+    align-items: center;
+    font-size: 1.2em;
+}
+input{
+    margin-bottom: 1%;
+    height: 10%;
+    width: 70%;
+    border-radius: 20px;
+    background: darkgray;
+    border: linear-gradient(270deg,rgba(79, 240, 4, 1),rgb(160, 3, 3));
+}
+.input_message{
+    height: 30%;
+}
+.form-button{
+    width: 70%;
+    height: 10%;
+    border-radius: 25px;
+    background: darkgray;
+    color: #fff;
+    font-size: 1.5em;
+}
+.form-button:hover{
+    background: linear-gradient(270deg,rgba(79, 240, 4, 1),rgba(3, 160, 152, 1));
+}
+
+@media screen and (max-width: 660px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .contact_details{
+        height: 70vh;
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
+    .form{
+        height: auto;
+        width: 80vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        font-size: 1em;
+    }
+    .form-button{
+        height: 8vh;
+        margin-top: 5vh;
+    }
+    .form input{
+        width: 60%;
+        height: 80%;
+        margin: 2%;
+    }
+    .input_message{
+        height: 10vh;
+    }
+}
