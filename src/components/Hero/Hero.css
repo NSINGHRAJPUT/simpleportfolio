@@ -7,7 +7,7 @@
     padding-top: 10vh;
     padding-bottom: 10vh;
     width: 90%;
-    background: linear-gradient(270deg,rgba(79, 240, 4, 0.1),rgba(160, 3, 3,0.2),rgba(1, 190, 253, 0.2),rgba(6, 26, 181, 0.2));
+    background: linear-gradient(to left,rgba(79, 240, 4, 0.1),rgba(160, 3, 3,0.2),rgba(1, 190, 253, 0.2),rgba(6, 26, 181, 0.2));
     border-radius: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -54,7 +54,7 @@
     padding: 2%;
 }
 .cv button:hover{
-    background: linear-gradient(270deg,rgba(79, 240, 4, 1),rgb(160, 3, 3));
+    background: linear-gradient(to left,rgba(79, 240, 4, 1),rgb(160, 3, 3));
 }
 @media screen and (max-width: 660px) {
     .hero_section{
@@ -71,6 +71,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: space-evenly;
     }
     .cv{
         display: flex;
@@ -78,6 +79,8 @@
         align-items: center;
     }
     .cv button{
-        width: auto;
+        width: 120%;
+        margin: 10%;
+        padding: 10%;
     }
 }

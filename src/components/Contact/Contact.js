@@ -1,15 +1,11 @@
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 const Contact = () =>{
-    let name = useRef();
-    let email = useRef();
-    let message = useRef();
     let form = useRef();
     const formHandler = (e) =>{
         e.preventDefault();
-        console.log("name:",name.current.value,"email:",email.current.value,'message:',message.current.value)
         emailjs.sendForm('service_ehfw2ma', 'template_2669vj9', form.current, 'VmaP3bAcIOVJgG3s9')
         .then((result) => {
             console.log(result.text);
@@ -40,12 +36,12 @@ const Contact = () =>{
             </div>
             <form className='form' ref={form} onSubmit={formHandler}>
                 <label>Name</label>
-                <input type='text' name='name' ref={name} required></input>
+                <input type='text' name="user_name" required></input>
                 <label>Email</label>
-                <input type='mail' email='email' ref={email} required></input>
-                <label>Mesage</label>
-                <input ref={message} message='message' className="input_message" type='text' required></input>
-                <button type='submit' className='form-button'>Send Message</button>
+                <input type='email' name="user_email" required></input>
+                <label>Message</label>
+                <textarea name='message' className="input_message" required></textarea>
+                <input type='submit' className='form-button' value='Send Message'></input>
             </form>
     </section>
 }

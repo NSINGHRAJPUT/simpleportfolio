@@ -19,12 +19,12 @@ video{
 .projects{
   font-size: 2em;
   position: relative;
-  color: #fff;
+  color: #0ca3de;
   left: 5%;
   width: fit-content;
   border-width: 8px;
   border-style: solid;
-  border-image: linear-gradient(60deg,#b60a0d,#4b129b) 1;
+  border-image: linear-gradient(60deg,#0ab699,#4b129b) 1;
   border-top: none;
   border-left: none;
   margin-top: 10vh;

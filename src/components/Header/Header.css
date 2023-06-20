@@ -26,9 +26,10 @@ li{
     background: -webkit-linear-gradient(#010764,rgb(248, 57, 57));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.5em;
 }
-span{
-    font-size: 1.2em;
+.logo span{
+    font-size: 2.2em;
 }
 .mobile_menu{
     display: none;
@@ -58,15 +59,13 @@ span{
     .mobile_nav_list{
         display: flex;
         flex-direction: column;
-        background: rgba(210, 210, 210, 0.2);
+        background: rgba(210, 210, 210, 0.1);
         position: absolute;
         top: 8vh;
         padding: 2%;
         z-index: 1;
         right: 0vh;
-    }
-    .mobile_nav_list li:hover{
-        background: black;
+        margin-right: 0;
     }
 }
 
