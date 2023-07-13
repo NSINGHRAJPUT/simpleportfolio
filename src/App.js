@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <video autoPlay loop muted>
-        // <source src={solar} type="video/mp4" />
+         <source src={solar} type="video/mp4" />
       </video>
       <Header/>
       <Hero/>
