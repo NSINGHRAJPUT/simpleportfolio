@@ -52,8 +52,8 @@ const Projects = () => {
         <div className="content">
           <h4 className="project_title">To Do app</h4>
           <p>
-            This is a simple clone of gmail made with React. In this Web app you
-            can send and recieve mails
+            A simple and basic to do app made with HTML, CSS and JavaScript. In
+            this todo app you can add, edit and can delete a to do task.
           </p>
           <img src={todo} width={240} alt="" />
           <button type="link" className="project-link">
@@ -71,8 +71,9 @@ const Projects = () => {
         <div className="content">
           <h4 className="project_title">Expense Tracker</h4>
           <p>
-            This is a simple clone of gmail made with React. In this Web app you
-            can send and recieve mails
+            Expense Tracker is made with the idea of managing the expenses and
+            see the expenses. This web app made with React, JavaScript ,Css and
+            HTML.
           </p>
           <img src={expense} width={240} alt="" />
           <button type="link" className="project-link">
@@ -92,8 +93,9 @@ const Projects = () => {
         <div className="content">
           <h4 className="project_title">Medicine Inventry</h4>
           <p>
-            This is a simple clone of gmail made with React. In this Web app you
-            can send and recieve mails
+            In this Medicine Inventry web app you can add a medicine to the list
+            of available medicines and you can add medicine to your cart edit
+            the medicine in you cart.
           </p>
           <img src={medicine} width={240} alt="" />
           <button type="link" className="project-link">
@@ -113,8 +115,8 @@ const Projects = () => {
         <div className="content">
           <h4 className="project_title">Food Order App</h4>
           <p>
-            This is a simple clone of gmail made with React. In this Web app you
-            can send and recieve mails
+            This is a simple food order web app in which you can add items to
+            your cart, remove items from your cart etc.
           </p>
           <img src={meals} width={240} alt="" />
           <button type="link" className="project-link">
