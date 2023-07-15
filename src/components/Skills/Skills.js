@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <ul id="skill">
       <div className="skill_title technical">
-        <h2 className="technical-skill">TECHNICAL</h2>
+        <h2 className="technical-skill">Technical Skills</h2>
         <li>
           <span className="bar graphic-design"></span>
           <h3>Html</h3>
@@ -27,7 +27,7 @@ const Skills = () => {
         </li>
       </div>
       <div className="skill_title soft">
-        <h2 className="soft-skill">SOFT</h2>
+        <h2 className="soft-skill">Soft Skills</h2>
         <li>
           <span className="bar communication"></span>
           <h3>Communication</h3>

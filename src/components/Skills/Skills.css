@@ -266,15 +266,15 @@
 }
 .skill_title h2 {
   position: relative;
-  bottom: 8%;
+
   color: #fff;
   font-size: 2em;
 }
 .soft {
-  width: 45%;
+  width: 48%;
 }
 .technical {
-  width: 45%;
+  width: 48%;
 }
 
 @media screen and (max-width: 660px) {
@@ -285,20 +285,18 @@
     width: 95%;
   }
   .technical {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
     font-size: 1em;
-    height: 90vh;
+    margin-bottom: 5vh;
   }
   .soft {
-    margin-top: 5vh;
     margin-bottom: 5vh;
     font-size: 1em;
-    height: 90vh;
   }
   .skill_title h2 {
     position: relative;
     color: #fff;
+    margin-bottom: 5vh;
+    width: 100vw;
   }
   .skill_title li {
     margin-top: 10vh;
