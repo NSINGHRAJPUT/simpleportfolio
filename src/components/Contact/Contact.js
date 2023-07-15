@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
-import Tilt from "react-parallax-tilt";
 
 const Contact = () => {
   let form = useRef();

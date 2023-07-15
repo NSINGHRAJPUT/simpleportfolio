@@ -70,8 +70,9 @@
 .hero_image {
   border: 1px solid rgb(18, 14, 14);
   border-radius: 20px;
-  padding: 1%;
-  margin: 1%;
+  padding: 5%;
+  margin: 2%;
+  width: 20vw;
 }
 
 .intro {
@@ -159,10 +160,16 @@
     }
   }
   .hero_image {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
     margin-top: 8vh;
   }
   img {
     width: 50vw;
+    border: 1px solid rgb(18, 14, 14);
   }
   .hero_intro {
     display: flex;

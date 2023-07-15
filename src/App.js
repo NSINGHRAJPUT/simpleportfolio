@@ -1,5 +1,4 @@
 import "./App.css";
-import solar from "./assets/solar.mp4";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Contact from "./components/Contact/Contact";
@@ -7,7 +6,7 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
 import Footer from "./components/Footer/Footer";
-import image from "./assets/back.png";
+import image from "./assets/solar.jpg";
 
 function App() {
   return (
