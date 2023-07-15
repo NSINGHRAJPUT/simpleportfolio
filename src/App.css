@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* ///////////////////////////////BACKGROUND VIDEO//////////////////////// */
-video{
+.back-img {
   position: fixed;
   top: 0;
   left: 0;
@@ -16,7 +16,7 @@ video{
   object-fit: cover;
   background: black;
 }
-.projects{
+.projects {
   font-size: 2em;
   position: relative;
   color: #0ca3de;
@@ -24,12 +24,8 @@ video{
   width: fit-content;
   border-width: 8px;
   border-style: solid;
-  border-image: linear-gradient(60deg,#0ab699,#4b129b) 1;
+  border-image: linear-gradient(60deg, #0ab699, #4b129b) 1;
   border-top: none;
   border-left: none;
   margin-top: 10vh;
 }
-
-
-
-
