@@ -8,9 +8,9 @@ const Hero = () => {
       <div className="box">
         <section className="fm">
           <div className="hero_intro">
-            <h1 className="animate__animated animate__backInUp animate__slower">
+            <h1 className=" animate__animated animate__backInUp animate__slower">
               Hi, I am <br />
-              NEERAJ SINGH RAJPUT
+              <span className="spaceX"> NEERAJ SINGH RAJPUT</span>
               <br />
             </h1>
             <h2 className="job_title animate__animated animate__backInDown animate__slower">

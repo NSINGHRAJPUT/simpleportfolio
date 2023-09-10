@@ -11,16 +11,13 @@
   justify-content: space-around;
   height: 95vh;
 }
+
 .contact_details {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background: linear-gradient(
-    to left,
-    rgba(79, 240, 4, 0.1),
-    rgba(3, 136, 160, 0.1)
-  );
-  box-shadow: 5px 8px black;
+  background: #222;
+  box-shadow: 5px 8px 8px 8px black;
   width: 30%;
   height: 80%;
   align-items: center;
@@ -33,6 +30,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .form {
   display: flex;
   flex-direction: column;
@@ -41,17 +39,12 @@
   height: 80%;
   margin-top: 0;
   line-height: 220%;
-  background: linear-gradient(
-    to left,
-    rgba(4, 224, 240, 0.1),
-    rgba(79, 240, 4, 0.1)
-  );
-  box-shadow: 2px 2px gray inset;
+  background: #222;
+  box-shadow: 5px 8px 8px 8px black;
   border-radius: 25px 0;
   align-items: center;
   font-size: 1.2em;
   transition: 0.5s;
-  box-shadow: 5px 5px 8px black;
 }
 
 input {
@@ -63,36 +56,37 @@ input {
   background: transparent;
   border: linear-gradient(to right, rgba(79, 240, 4, 1), rgb(3, 136, 160));
 }
+
 input:focus {
   background: #fff;
 }
+
 .input_message {
   height: 30%;
   width: 60%;
   margin-bottom: 2%;
   background: transparent;
 }
+
 input_message:focus {
   background: #fff;
 }
+
 .form-button {
   width: 70%;
   height: 10%;
   border-radius: 25px;
-  background: linear-gradient(
-    to left,
-    rgba(79, 240, 4, 1),
-    rgba(3, 160, 152, 1)
-  );
+  background: linear-gradient(to left,
+      rgba(79, 240, 4, 1),
+      rgba(3, 160, 152, 1));
   color: #fff;
   font-size: 1.5em;
 }
+
 .form-button:hover {
-  background: linear-gradient(
-    to left,
-    rgba(79, 240, 4, 1),
-    rgba(3, 160, 152, 1)
-  );
+  background: linear-gradient(to left,
+      rgba(79, 240, 4, 1),
+      rgba(3, 160, 152, 1));
 }
 
 @media screen and (max-width: 660px) {
@@ -103,11 +97,13 @@ input_message:focus {
     justify-content: space-evenly;
     margin-top: 10%;
   }
+
   .contact_details {
     height: 70vh;
     width: 80vw;
     margin-bottom: 5vh;
   }
+
   .form {
     height: auto;
     width: 80vw;
@@ -115,15 +111,18 @@ input_message:focus {
     padding-bottom: 5vh;
     font-size: 1em;
   }
+
   .form-button {
     height: 8vh;
     margin-top: 5vh;
   }
+
   .form input {
     width: 60%;
     height: 80%;
     margin: 2%;
   }
+
   .input_message {
     height: 120%;
     background: gray;

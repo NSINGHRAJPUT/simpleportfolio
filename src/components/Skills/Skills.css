@@ -4,19 +4,20 @@
   margin: auto;
   position: relative;
   line-height: 1em;
-  background: rgba(210, 210, 210, 0);
+  background: rgba(26, 25, 25, 1);
   width: 90%;
   padding: 10vh;
   padding-bottom: 0;
   border-width: 8px;
   border-style: solid;
-  border-image: linear-gradient(to left, #0f0471, #0fbd09, #b60a0d, #4b129b) 1;
+  border-image: linear-gradient(to left, #0f0471, #0fbd09, #b60a0d, #4b129b)0.4;
   margin-bottom: 5vh;
-  box-shadow: 8px 8px 15px 10px #111;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 5%;
+  border-radius: 25px;
 }
+
 .skill_title {
   display: flex;
   flex-direction: column;
@@ -29,13 +30,11 @@
   position: relative;
   background: transparent;
   transition: 0.5s;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#e1ddd9),
-    to(#e9e5e2)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#e1ddd9),
+      to(#e9e5e2));
   background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
   background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
   background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
@@ -54,6 +53,7 @@
   top: -25px;
   transition: 0.5s;
 }
+
 #skill li h3:hover {
   transform: translateX(20px);
 }
@@ -74,13 +74,11 @@
   -webkit-animation: graphic-design 2s ease-out;
   animation: alternate-reverse;
   background-color: #b60a0d;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f674a4),
-    to(#e06995)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#f674a4),
+      to(#e06995));
   background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
   background-image: -moz-linear-gradient(top, #f674a4, #e06995);
   background-image: -ms-linear-gradient(top, #f674a4, #e06995);
@@ -94,13 +92,11 @@
   -webkit-animation: html-css 2s ease-out;
   animation: alternate-reverse;
   background-color: #d6be0b;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f0bb4b),
-    to(#d9aa44)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#f0bb4b),
+      to(#d9aa44));
   background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
   background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
   background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
@@ -114,13 +110,11 @@
   -webkit-animation: jquery 2s ease-out;
   animation: alternate-reverse;
   background-color: #0fbd09;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#a1ce5b),
-    to(#91ba52)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#a1ce5b),
+      to(#91ba52));
   background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
   background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
   background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
@@ -134,51 +128,47 @@
   -webkit-animation: wordpress 2s ease-out;
   animation: alternate-reverse;
   background-color: #0faabe;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#66b3cc),
-    to(#5da3ba)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#66b3cc),
+      to(#5da3ba));
   background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: linear-gradient(to left, #66b3cc, #5da3ba);
 }
+
 .react {
   width: 90%;
   -moz-animation: react 2s ease-out;
   -webkit-animation: react 2s ease-out;
   animation: alternate-reverse;
   background-color: #4b129b;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#4b129b),
-    to(#390368)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#4b129b),
+      to(#390368));
   background-image: -webkit-linear-gradient(top, #4b129b, #390368);
   background-image: -moz-linear-gradient(top, #4b129b, #390368);
   background-image: -ms-linear-gradient(top, #4b129b, #390368);
   background-image: -o-linear-gradient(top, #4b129b, #390368);
   background-image: linear-gradient(to left, #4b129b, #390368);
 }
+
 .communication {
   width: 90%;
   -moz-animation: graphic-design 2s ease-out;
   -webkit-animation: graphic-design 2s ease-out;
   animation: alternate-reverse;
   background-color: #18b60a;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f674a4),
-    to(#e06995)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#f674a4),
+      to(#e06995));
   background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
   background-image: -moz-linear-gradient(top, #f674a4, #e06995);
   background-image: -ms-linear-gradient(top, #f674a4, #e06995);
@@ -192,13 +182,11 @@
   -webkit-animation: html-css 2s ease-out;
   animation: alternate-reverse;
   background-color: #d60ba0;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f0bb4b),
-    to(#d9aa44)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#f0bb4b),
+      to(#d9aa44));
   background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
   background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
   background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
@@ -212,13 +200,11 @@
   -webkit-animation: jquery 2s ease-out;
   animation: alternate-reverse;
   background-color: #41036b;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#a1ce5b),
-    to(#91ba52)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#a1ce5b),
+      to(#91ba52));
   background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
   background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
   background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
@@ -232,47 +218,47 @@
   -webkit-animation: wordpress 2s ease-out;
   animation: alternate-reverse;
   background-color: #be350f;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#66b3cc),
-    to(#5da3ba)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#66b3cc),
+      to(#5da3ba));
   background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
   background-image: linear-gradient(to left, #66b3cc, #5da3ba);
 }
+
 .accountability {
   width: 88%;
   -moz-animation: react 2s ease-out;
   -webkit-animation: react 2s ease-out;
   animation: alternate-reverse;
   background-color: #5e045e;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#4b129b),
-    to(#390368)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#4b129b),
+      to(#390368));
   background-image: -webkit-linear-gradient(top, #4b129b, #390368);
   background-image: -moz-linear-gradient(top, #4b129b, #390368);
   background-image: -ms-linear-gradient(top, #4b129b, #390368);
   background-image: -o-linear-gradient(top, #4b129b, #390368);
   background-image: linear-gradient(to left, #4b129b, #390368);
 }
+
 .skill_title h2 {
   position: relative;
 
   color: #fff;
   font-size: 2em;
 }
+
 .soft {
   width: 48%;
 }
+
 .technical {
   width: 48%;
 }
@@ -284,25 +270,30 @@
     justify-content: flex-start;
     width: 95%;
   }
+
   .technical {
     font-size: 1em;
     margin-bottom: 5vh;
   }
+
   .soft {
     margin-bottom: 5vh;
     font-size: 1em;
   }
+
   .skill_title h2 {
     position: relative;
     color: #fff;
     margin-bottom: 5vh;
     width: 100vw;
   }
+
   .skill_title li {
     margin-top: 10vh;
     width: 60vw;
     margin-left: 0;
   }
+
   #skill li {
     margin-top: 15%;
     margin-bottom: 15%;

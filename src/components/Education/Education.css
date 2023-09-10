@@ -1,29 +1,33 @@
-.education{
+.education {
     position: relative;
     color: #fff;
-    width: 90%;
+    width: 89%;
     margin: auto;
     padding: 2%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background: #222;
+    border-radius: 25px;
 }
-.classx{
-    background: rgba(210, 210, 210,0.1);
+
+.classx {
+    background: rgba(210, 210, 210, 0.1);
     padding: 2%;
     margin: 2%;
     border-radius: 10px;
     box-shadow: 8px 8px 9px 10px black;
     transition: 0.5s;
-    background:linear-gradient(270deg,rgba(79, 240, 4, 0.1),rgba(6, 26, 181, 0.2))
+    background: linear-gradient(270deg, rgba(79, 240, 4, 0.1), rgba(6, 26, 181, 0.2))
 }
 
-.classx:hover{
+.classx:hover {
     transform: translateY(25px);
-    background:linear-gradient(270deg,rgba(6, 26, 181, 0.2),rgba(79, 240, 4, 0.1));
+    background: linear-gradient(270deg, rgba(6, 26, 181, 0.2), rgba(79, 240, 4, 0.1));
 }
+
 @media screen and (max-width:660px) {
-    .classx{
+    .classx {
         margin: 8%;
     }
 }

@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav_logo">
-          <h2 className="logo">
+          <h2 className="spaceX logo">
             <span>N</span>SRGFX
           </h2>
         </a>
