@@ -27,12 +27,12 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="contact_details" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
-        <a href="mailto:nsinghrajput@gmail.com" className="nav_link">
+        <a href="mailto:nsinghrajputx@gmail.com" className="nav_link">
           <i className="uil uil-envelope"></i>
           <span className="nav_item">Email</span>
           <h4>nsinghrajputx@gmail.com</h4>
         </a>
-        <a href="mailto:nsinghrajput@gmail.com" className="nav_link">
+        <a href="mailto:nsinghrajputx@gmail.com" className="nav_link">
           <i className="uil uil-message"></i>
           <span className="nav_item">Messanger</span>
           <h4>NEERAJ SINGH RAJPUT</h4>
