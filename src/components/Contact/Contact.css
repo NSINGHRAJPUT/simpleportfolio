@@ -54,7 +54,7 @@ input {
   width: 60%;
   border-radius: 5px;
   background: transparent;
-  border: linear-gradient(to right, rgba(79, 240, 4, 1), rgb(3, 136, 160));
+  border: 2px solid linear-gradient(to right, #039aff, #0dff00);
 }
 
 input:focus {
@@ -76,17 +76,14 @@ input_message:focus {
   width: 70%;
   height: 10%;
   border-radius: 25px;
-  background: linear-gradient(to left,
-      rgba(79, 240, 4, 1),
-      rgba(3, 160, 152, 1));
+  border-image: linear-gradient(60deg, #0ab699, #4b129b) 1;
   color: #fff;
   font-size: 1.5em;
 }
 
 .form-button:hover {
-  background: linear-gradient(to left,
-      rgba(79, 240, 4, 1),
-      rgba(3, 160, 152, 1));
+  border-image: linear-gradient(60deg, #4b129b, #0ab699) 1;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 660px) {

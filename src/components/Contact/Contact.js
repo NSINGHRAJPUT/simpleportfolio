@@ -26,7 +26,7 @@ const Contact = () => {
 
   return (
     <section className="contact" id="contact">
-      <div className="contact_details">
+      <div className="contact_details" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <a href="mailto:nsinghrajput@gmail.com" className="nav_link">
           <i className="uil uil-envelope"></i>
           <span className="nav_item">Email</span>
@@ -43,7 +43,7 @@ const Contact = () => {
           <h4>+91 9752661779</h4>
         </a>
       </div>
-      <form className="form" ref={form} onSubmit={formHandler}>
+      <form className="form" ref={form} onSubmit={formHandler} data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <label>Name</label>
         <input type="text" name="user_name" required></input>
         <label>Email</label>

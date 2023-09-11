@@ -215,3 +215,7 @@
     margin: 0;
   }
 }
+
+.name {
+  color: darkred;
+}

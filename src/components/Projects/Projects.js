@@ -5,11 +5,13 @@ import todo from "../../assets/todo.jpg";
 import medicine from "../../assets/medicine.jpg";
 import expense from "../../assets/expense.jpg";
 import meals from "../../assets/meals.jpg";
+import booking from "../../assets/booking.png";
+import jobfair from "../../assets/jobfair.png";
 
 const Projects = () => {
   return (
     <section className="skills">
-      <div className="projects_cont">
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <span></span>
         <div className="content">
           <h4 className="project_title">MailBox Client</h4>
@@ -28,7 +30,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div className="projects_cont">
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <span></span>
         <div className="content">
           <h4 className="project_title">Portfolio</h4>
@@ -47,7 +49,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div className="projects_cont">
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <span></span>
         <div className="content">
           <h4 className="project_title">To Do app</h4>
@@ -66,7 +68,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div className="projects_cont">
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <span></span>
         <div className="content">
           <h4 className="project_title">Expense Tracker</h4>
@@ -88,7 +90,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div className="projects_cont">
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <span></span>
         <div className="content">
           <h4 className="project_title">Medicine Inventry</h4>
@@ -110,7 +112,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div className="projects_cont">
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
         <span></span>
         <div className="content">
           <h4 className="project_title">Food Order App</h4>
@@ -126,6 +128,56 @@ const Projects = () => {
           </button>
           <button type="link" className="project-link">
             <a href="https://github.com/NSINGHRAJPUT/food-order-app">
+              Source Code
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
+        <span></span>
+        <div className="content">
+          <h4 className="project_title">Node JS Group Chat App</h4>
+          <p>
+            It's a basic app which offers group chatting made with node js
+          </p>
+          <img src={meals} width={240} alt="" />
+          <button type="link" className="project-link">
+            <a href="https://github.com/NSINGHRAJPUT/nodeJS-groupChatApp">
+              Source Code
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
+        <span></span>
+        <div className="content">
+          <h4 className="project_title">Booking Appointment App</h4>
+          <p>
+            This a fullstack app made with express js, html, css and JavaScript in which you can book appointment.
+          </p>
+          <img src={booking} width={240} alt="" />
+          <button type="link" className="project-link">
+            <a href="https://github.com/NSINGHRAJPUT/booking-appointment-app-fullstack-">
+              Source Code
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className="projects_cont" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
+        <span></span>
+        <div className="content">
+          <h4 className="project_title">WellFound's Home Page Clone</h4>
+          <p>
+            This is a simple clone of WellFound's jobFair site home page
+          </p>
+          <img src={jobfair} width={240} alt="" />
+          <button type="link" className="project-link">
+            <a href="https://job-fair-bwezibxju-nsinghrajput.vercel.app/">
+              Live
+            </a>
+          </button>
+          <button type="link" className="project-link">
+            <a href="https://github.com/NSINGHRAJPUT/jobFair">
               Source Code
             </a>
           </button>

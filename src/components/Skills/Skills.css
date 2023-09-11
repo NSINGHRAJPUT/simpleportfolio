@@ -4,13 +4,12 @@
   margin: auto;
   position: relative;
   line-height: 1em;
-  background: rgba(26, 25, 25, 1);
+  background: #111;
   width: 90%;
   padding: 10vh;
   padding-bottom: 0;
   border-width: 8px;
   border-style: solid;
-  border-image: linear-gradient(to left, #0f0471, #0fbd09, #b60a0d, #4b129b)0.4;
   margin-bottom: 5vh;
   display: flex;
   justify-content: space-evenly;
@@ -30,21 +29,8 @@
   position: relative;
   background: transparent;
   transition: 0.5s;
-  background-image: -webkit-gradient(linear,
-      left top,
-      left bottom,
-      from(#e1ddd9),
-      to(#e9e5e2));
-  background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
-  background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
-  background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
-  background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
-  background-image: linear-gradient(to left, #e1ddd9, #e9e5e2);
   height: 20px;
   border-radius: 10px;
-  -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
-  -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
-  box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
   font-size: 0.8em;
 }
 

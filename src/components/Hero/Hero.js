@@ -8,15 +8,15 @@ const Hero = () => {
       <div className="box">
         <section className="fm">
           <div className="hero_intro">
-            <h1 className=" animate__animated animate__backInUp animate__slower">
+            <h1 data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="900">
               Hi, I am <br />
-              <span className="spaceX"> NEERAJ SINGH RAJPUT</span>
+              <span className="spaceX name"> NEERAJ SINGH RAJPUT</span>
               <br />
             </h1>
-            <h2 className="job_title animate__animated animate__backInDown animate__slower">
+            <h2 className="job_title " data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
               Front End Developer
             </h2>
-            <p className="intro animate__animated animate__backInLeft animate__slower">
+            <p className="intro" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
               A creative Front End Web Developer, and I'm very passionate to my
               work.I am skilled in React and equipped with a solid coding
               foundation. Eager to contribute my quick learning abilites and
@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="cv">
               <a href={cv} download>
-                <button className="animate__animated animate__heartBeat animate__slower animate__infinite">
+                <button className="animate__animated animate__heartBeat animate__slower animate__infinite" >
                   Download CV
                 </button>
               </a>
@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
           <Tilt>
-            <div className="hero_image">
+            <div className="hero_image" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
               <img src={profile} width={240} alt="" />
             </div>
           </Tilt>
